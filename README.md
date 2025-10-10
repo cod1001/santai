@@ -1,9 +1,11 @@
 # santai
-An adaptive AI runtime that interprets and routes tensor graphs from any model. A foundation for multi-model tracing and self-reflective AI architectures with dynamic CPU/GPU/NPU power allocation
+An adaptive AI runtime that interprets and routes tensor graphs from any model. A foundation for multi-model tracing and self-reflective AI architectures with dynamic CPU/GPU/NPU power allocation.
 
-SANTAI - generation architecture of AI Universal execution core designed to receive, interpret, and route tensor blocks from any AI model within a unified runtime environment.
+SANTAI - explicit runtime-centered AI architecture describing weight as executable and evolving process.
 
-#Architecture 
+#Architecture
+
+Architecture of AI Universal execution core designed to receive, interpret, and route tensor blocks from any AI model within a unified runtime environment.
 
 Structured across six layers (L0–L6): 
 
@@ -21,7 +23,7 @@ L5 – Meta-Trainer — self-adaptation and optimization of routing without full
 
 L6 – External Runtime Interface — a bridge to external AI models, networks, and compute nodes. 
 
-A system in which any AI module can act as a plugin, and computation forms a distributed runtime mesh. SANTAI is not just a model — it is an operating system for intelligence, a foundation for the next generation of AI architectures. 
+
 
 <img width="460" height="1700" alt="image" src="https://github.com/user-attachments/assets/4663a908-8643-4138-8f04-70ed11aca011" />
 
@@ -30,7 +32,6 @@ Potential Use-Cases
 2. **Edge Analytics Nodes** — autonomous optimization of models in low-connectivity environments.  
 3. **Research Sandboxes** — testbed for continual-learning and self-modifying systems.  
 4. **Private AI Agents** — local identity-preserving models with secure ΔW memory.
-
 
 
 In contrast to standard fine-tuning, the Self-Evolving Weight Layer (SEWL) operates as a continuously adaptive subsystem rather than a static post-training modification.
@@ -60,6 +61,7 @@ System Overview
 Implementation Variants for ΔW Integration
 Different base models and deployment constraints may prefer different merge strategies.
 Below are several mathematically consistent formulations for integrating the Self-Evolving Weight Layer (SEWL) or Dynamic Matrix Layer (DML) updates at runtime.
+
 1. Exponential Moving Average (EMA Merge)
 A simple, stable online rule:
 
@@ -186,8 +188,6 @@ All rights are reserved.
 No part of this work may be copied, modified, or implemented (in full or in part) for commercial, research, or derivative purposes without the author’s explicit written permission.
 
 Limited sharing and citation are permitted under fair use, provided proper attribution is given:
-
-Ruslan Timerbaev, santAI: Adaptive AI Runtime Architecture, 2025.
 
 For inquiries, collaboration, or licensing requests:
 Contact: t.me/id412216355
