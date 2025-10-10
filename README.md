@@ -1,9 +1,6 @@
 # santai
 An adaptive AI runtime that interprets and routes tensor graphs from any model. A foundation for multi-model tracing and self-reflective AI architectures with dynamic CPU/GPU/NPU power allocation
 
-
-An adaptive AI runtime that interprets and routes tensor graphs from any model. A foundation for multi-model tracing and self-reflective AI architectures with dynamic CPU/GPU/NPU power allocation.
-
 SANTAI - generation architecture of AI Universal execution core designed to receive, interpret, and route tensor blocks from any AI model within a unified runtime environment.
 
 #Architecture 
@@ -24,7 +21,7 @@ L5 – Meta-Trainer — self-adaptation and optimization of routing without full
 
 L6 – External Runtime Interface — a bridge to external AI models, networks, and compute nodes. 
 
-A system in which any AI module can act as a plugin, and computation forms a distributed runtime mesh. QADRATENSION is not just a model — it is an operating system for intelligence, a foundation for the next generation of AI architectures. 
+A system in which any AI module can act as a plugin, and computation forms a distributed runtime mesh. SANTAI is not just a model — it is an operating system for intelligence, a foundation for the next generation of AI architectures. 
 
 <img width="460" height="1700" alt="image" src="https://github.com/user-attachments/assets/4663a908-8643-4138-8f04-70ed11aca011" />
 
@@ -152,6 +149,9 @@ On-Device Model Family
 - RWKV paper (arXiv): https://arxiv.org/abs/2305.13048
 - RWKV GitHub: https://github.com/BlinkDL/RWKV-LM
 
+Memory inside modules
+- QUADRATENSION -Unique dual-line dual-stream memory system with intelligent memory system https://github.com/cod1001/quadratension
+
 Theoretical Performance Estimate
 Preliminary analysis suggests that merging low-rank ΔW updates at runtime introduces <5% to ( additional latency on CPU-class hardware while maintaining persistent memory between sessions.
 Memory overhead remains bounded — typically tens of MB per active adapter, depending on model dimensionality and chosen merge strategy (EMA or low-rank LoRA).
@@ -164,7 +164,7 @@ A working prototype is planned; hardware constraints currently prevent real-time
 
 Author & Contact
 
-Author: Ruslan Timerbaev
+Author: RUSLAN TIMERBAEV
 
 Project: SANTAI
 
@@ -189,6 +189,7 @@ Ruslan Timerbaev, santAI: Adaptive AI Runtime Architecture, 2025.
 
 For inquiries, collaboration, or licensing requests:
 Contact: t.me/id412216355
+project: https://github.com/cod1001/santai
 project: https://github.com/cod1001/quadratension
 
 
