@@ -149,8 +149,10 @@ On-Device Model Family
 - RWKV paper (arXiv): https://arxiv.org/abs/2305.13048
 - RWKV GitHub: https://github.com/BlinkDL/RWKV-LM
 
-Memory inside modules
+Next conceptual layer between runtime and cognition
 - QUADRATENSION -Unique dual-line dual-stream memory system with intelligent memory system https://github.com/cod1001/quadratension
+- SEWL - The Self-Evolving Weight Layer https://github.com/cod1001/sewl
+
 
 Theoretical Performance Estimate
 Preliminary analysis suggests that merging low-rank ΔW updates at runtime introduces <5% to ( additional latency on CPU-class hardware while maintaining persistent memory between sessions.
